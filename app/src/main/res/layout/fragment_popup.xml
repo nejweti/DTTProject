@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popupLinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="350dp"
+    android:minWidth="400dp"
+    android:background="#80AFBB21"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cancelDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_btn_close"
+            android:padding="2dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ccffffff"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80AFBB21"
+
+        tools:context="com.example.user.dttproject.Fragments.PopupFragment">
+
+
+        <LinearLayout
+            android:id="@+id/contentHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/callTitle"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9,4 cent per gesperk plus 2,8 cent per minuut, plus uw gebruikelijke belkosten"
+                android:textColor="@color/white"
+                android:layout_margin="25dp"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/callbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contentHolder"
+            android:layout_margin="20dp"
+            android:background="#0092BB"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/main_btn_phone" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginRight="100dp"
+                android:gravity="center"
+                android:text="@string/call"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

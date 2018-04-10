@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RSR</string>
+    <string name="rsr_hulp">RSR Pechhulp</string>
+    <string name="markerTitle">My Location:</string>
+    <string name="mainTitle">RSR Revalidatieservice</string>
+    <string name="reminder">Onthoud deze locatie voor het telefoongesprek</string>
+    <string name="goTocall">Bel RSR nu</string>
+    <string name="call">Bel nu</string>
+    <string name="callTitle">Belkosten</string>
+    <string name="cancel">Annuleren</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splach">SplachActivity</string>
+</resources>

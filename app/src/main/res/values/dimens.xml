@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LocationHeader">35dp</dimen>
+    <dimen name="snippetWidth">400dp</dimen>
+    <dimen name="snippetHeight">550dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
